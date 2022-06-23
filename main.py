@@ -2,6 +2,11 @@
 """
 A simple app to create a JWT token.
 """
+"""set JWT_SECRET='danielsecret'
+ set LOG_LEVEL=DEBUG
+ # Verify
+ echo $JWT_SECRET
+ echo $LOG_LEVEL"""
 import os
 import logging
 import datetime
