@@ -9,10 +9,10 @@ Parameters:
   EksClusterName:
     Type: String
     Description: The name of the EKS cluster created
-    Default: simple-jwt-api-1
+    Default: simple-jwt-api-2
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: simple-jwt-api-1
+    ConstraintDescription: simple-jwt-api-2
 
   GitSourceRepo:
     Type: String
